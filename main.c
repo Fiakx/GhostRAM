@@ -199,7 +199,7 @@ typedef enum {
 static View      g_view        = VIEW_HEX;
 static int       g_sidebar_tab = 0;     // 0=zones 1=bookmarks 2=patterns
 static float     g_sb_scroll   = 0;
-static char      g_status[256] = "GhostRAM v3 — prêt";
+static char      g_status[256] = "GhostRAM v3";
 
 // input
 typedef enum { IN_NONE=0, IN_SEARCH, IN_GOTO, IN_BM_LABEL, IN_BM_NOTE } InputMode;
